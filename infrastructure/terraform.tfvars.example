@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and fill in your values
+# DO NOT commit terraform.tfvars to git
+
+aws_region          = "us-east-1"
+mongodb_uri         = "mongodb+srv://user:password@cluster.mongodb.net/dbname"
+jwt_secret          = "your-super-secret-jwt-key-here"
+jwt_expires_in      = "3600"
+max_active_api_keys = "3"
